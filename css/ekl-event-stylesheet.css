@@ -1,0 +1,106 @@
+.btn {
+	display:block;
+	height:100px;
+	width:100px;
+	border-radius: 50%;
+	text-align:center;
+	position:relative;
+	color:white;
+}
+
+hr.ekl-hr-style {
+	border: 0;
+  height: 0;
+  border-top: 1px solid rgba(135, 135, 135, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.ekl-event-container {
+  background-color: #eee;
+  border: 1px solid #ccc; 
+  width:100%;
+  margin-bottom:30px;
+  display:flex;
+  display: -webkit-flex;
+  position:relative;
+  -webkit-box-shadow: 3px 3px 3px #7C7C7C;
+  box-shadow: 3px 3px 3px #7C7C7C;
+  transition: background-color 0.2s ease;
+}
+
+.ekl-event-container:hover {
+  background-color: white !important;
+}
+
+.ekl-event-service-info {
+  width:30%;
+  float: right;
+  padding:0 25px 25px 25px;
+}
+
+.ekl-event-date {
+  padding:15px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  border: 0px;
+  line-height: 1;
+  flex-grow: 1;
+  background:#689c16;
+}
+
+.ekl-event-title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight:bold;
+}
+
+.ekl-event-details {
+	padding-bottom:20px;
+}
+.ekl-event-excerpt {
+  color: #e6e6e6;
+}
+
+.ekl-event-content {
+  padding:15px 30px 30px;
+}
+
+.ekl-event-content-text {
+	opacity: 0.8;
+}
+
+.ekl-event-content {
+ height: 100%;
+ width:100%
+ overflow: hidden;
+}
+
+.ekl-event-expand {
+  width:10%;
+  background-image: url('http://thegrovelife.org/wp-content/uploads/2015/05/arrow.png');
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.ekl-arrow-right {
+  float:left;
+  margin: 18px 0 0 -5px;	
+  width: 0; 
+  height: 0; 
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #689c16;
+}
+
+.ekl-vertical-middle {
+  vertical-align:middle;
+}
+
+@media only screen and (max-width: 414px) {
+    .ekl-event-date,
+    .ekl-arrow-right {
+      display:none;
+    }
+
+}
