@@ -36,5 +36,10 @@ function ekl_load_admin_scripts()
 	wp_enqueue_script( 'ekl-jscolor' );
 }
 
+add_filter('next_posts_link_attributes', 'posts_link_attributes');
+add_filter('previous_posts_link_attributes', 'posts_link_attributes');
 
+function posts_link_attributes() {
+    return 'class="ekl-event-pagination-btn"';
+}
 ?>

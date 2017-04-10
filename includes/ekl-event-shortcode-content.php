@@ -1,9 +1,12 @@
 <?php
 
 //WP_Query Information -> Sorts by custom 'events' post type and then by the Start Date Meta Tag information descending
+$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 $args = array(
             'post_status' => 'publish',
             'post_type' => 'events',
+			'posts_per_page' => '10',
+			'paged' => $paged,
             'meta_key' => '_ekl_meta_start_date',
             'orderby' => 'meta_value',
             'order' => 'ASC',
@@ -98,7 +101,17 @@ if ($my_query->have_posts()) { ?>
 	
     <?php endwhile;
 } 
-?>
+//Add Pagination Links
+if ($my_query->max_num_pages > 1) { // check if the max number of pages is greater than 1  ?>
+  <nav class="ekl-event-prev-next-posts">
+    <div class="ekl-event-next-posts-link">
+      <?php echo get_previous_posts_link( '<< View Previous Events' ); // display newer posts link ?>
+    </div>
+	<div class="ekl-event-prev-posts-link">
+      <?php echo get_next_posts_link( 'View More Events >>', $my_query->max_num_pages ); // display older posts link ?>
+    </div>
+  </nav>
+<?php } ?>
 
 <script>
 $(document).ready(function(){

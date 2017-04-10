@@ -3,7 +3,7 @@
 Plugin Name: Eklipse Event Manager
 Plugin URI: http://eklipsecreative.com
 Description: Simple event manager.
-Version: 1.21
+Version: 1.3
 Author: Chris McCulley
 Author URI: http://eklipsecreative.com
 License: GPL

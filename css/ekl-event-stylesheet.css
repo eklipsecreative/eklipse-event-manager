@@ -1,4 +1,6 @@
-.ekl-event-btn {
+
+.ekl-event-btn,
+.ekl-event-pagination-btn {
   display:block;
   width:100%;
   background-color:#ccc;
@@ -11,9 +13,27 @@
   color:#333;
 }
 
-.ekl-event-btn:hover {
+.ekl-event-btn:hover,
+.ekl-event-pagination-btn:hover {
   background:#ddd;
   color:#333;
+}
+
+.ekl-event-pagination-btn {
+  width:98%;
+  color:#333;
+  margin:0 1%;
+}
+
+.ekl-event-pagination-btn:visited {
+  color:#333;
+}
+
+.ekl-event-prev-posts-link,
+.ekl-event-next-posts-link {
+  width:50%;
+  float:left;
+  position:relative;
 }
 
 hr.ekl-hr-style {
@@ -24,6 +44,7 @@ hr.ekl-hr-style {
 }
 
 .ekl-event-container {
+  background-color: white !important;
   border: 1px solid #ccc; 
   width:100%;
   margin-bottom:30px;
@@ -32,11 +53,7 @@ hr.ekl-hr-style {
   position:relative;
   -webkit-box-shadow: 3px 3px 3px #7C7C7C;
   box-shadow: 3px 3px 3px #7C7C7C;
-  transition: background-color 0.2s ease;
-}
 
-.ekl-event-container:hover {
-  background-color: white !important;
 }
 
 .ekl-event-service-info {
@@ -46,7 +63,7 @@ hr.ekl-hr-style {
 }
 
 .ekl-event-date {
-  padding:15px;
+  padding:15px 10px;
   text-transform: uppercase;
   text-align: center;
   color: white;
@@ -60,6 +77,7 @@ hr.ekl-hr-style {
   font-size: 1.5rem;
   text-transform: uppercase;
   font-weight:bold;
+  color:black;
 }
 
 .ekl-event-details {
