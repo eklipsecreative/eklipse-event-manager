@@ -4,7 +4,7 @@ add_action( 'init', 'ekl_create_post_type' );
 
 //Registers the Product's post type
 function ekl_create_post_type() {
-    register_post_type( 'events',
+    register_post_type( 'ekl_events',
         array(
             'labels' => array(
                 'name' => __( 'Events' ),
@@ -27,14 +27,4 @@ function ekl_create_post_type() {
         )
     );
 }
-
-/* add_action('admin_menu' , 'ekl_add_custom_post_type_settings_page'); 
- 
-function ekl_add_custom_post_type_settings_page() {
-    add_submenu_page('edit.php?post_type=events', 'Simple Events Lister Settings', 'Settings', 'edit_posts', basename(__FILE__), 'ekl_custom_post_type_settings_page');
-}
-
-function ekl_custom_post_type_settings_page() {
-	require_once( 'ekl-plugin-settings.php' );
-} */
 ?>

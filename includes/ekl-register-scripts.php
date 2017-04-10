@@ -13,7 +13,7 @@ function ekl_load_scripts()
 	wp_enqueue_script( 'ekl-jquery' );
 	
 	//Events Plugin Files
-	wp_register_style( 'ekl-event-css', plugins_url( '/css/ekl-event-stylesheet.css', dirname(__FILE__) ), array(), '20160307', 'all' );
+	wp_register_style( 'ekl-event-css', plugins_url( '/css/ekl-event-stylesheet.min.css', dirname(__FILE__) ), array(), '20170410', 'all' );
 	wp_enqueue_style( 'ekl-event-css' );
 	
 	//SlabText Files

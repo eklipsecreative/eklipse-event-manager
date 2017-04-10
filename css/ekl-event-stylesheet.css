@@ -66,11 +66,10 @@ hr.ekl-hr-style {
   padding:15px 10px;
   text-transform: uppercase;
   text-align: center;
-  color: white;
   border: 0px;
   line-height: 1;
   flex-grow: 1;
-  background:#689c16;
+  /*background:#689c16;*/
 }
 
 .ekl-event-title {
@@ -120,7 +119,6 @@ hr.ekl-hr-style {
   height: 0; 
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 15px solid #689c16;
 }
 
 .ekl-vertical-middle {

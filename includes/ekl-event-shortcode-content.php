@@ -4,7 +4,7 @@
 $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 $args = array(
             'post_status' => 'publish',
-            'post_type' => 'events',
+            'post_type' => 'ekl_events',
 			'posts_per_page' => '10',
 			'paged' => $paged,
             'meta_key' => '_ekl_meta_start_date',
@@ -65,17 +65,21 @@ if ($my_query->have_posts()) { ?>
 	} else {
 		$ekl_detail_location = '<a href="' . $ekl_meta_url . '">' . $ekl_meta_location . '</a>';
 	}
+
+	//Load color setting
+	$ekl_event_bg_color = "#" . get_option( ekl_bg_color );
+	$ekl_event_text_color = "#" . get_option( ekl_txt_color );
 			
 	?> 
 	<div class="ekl-event-container">
-		<div class="ekl-event-date">	
-			<div class="btn-text">
+		<div class="ekl-event-date" style="background-color: <?php echo $ekl_event_bg_color; ?>; color: <?php echo $ekl_event_text_color; ?>;">	
+			<div class="ekl-big-text">
 				<div><?php echo $short_month; ?></div>
 				<div><?php echo $the_event_date; ?></div>
 			</div>
 		</div>
 		<div class="ekl-vertical-middle">
-			<div class="ekl-arrow-right"></div>
+			<div class="ekl-arrow-right" style="border-left: 15px solid <?php echo $ekl_event_bg_color; ?>"></div>
 		</div>
 		<div class="ekl-event-content ekl-vertical-middle">
 			<span class="ekl-event-title"><?php the_title(); ?></span>
@@ -116,7 +120,7 @@ if ($my_query->max_num_pages > 1) { // check if the max number of pages is great
 <script>
 $(document).ready(function(){
 	
-	$('.btn-text').bigtext();
+	$('.ekl-big-text').bigtext();
 	
 });
 </script>
