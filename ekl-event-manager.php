@@ -13,7 +13,6 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 //Load Plugin Libraries
 require_once( 'includes/ekl-custom-post-type.php' );
-require_once( 'includes/ekl-event-settings-page.php' );
 require_once( 'includes/ekl-add-meta-boxes.php' );
 require_once( 'includes/ekl-event-shortcode.php' );
 

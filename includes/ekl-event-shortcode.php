@@ -8,8 +8,6 @@ function register_shortcodes() {
 }
 
 function ekl_generate_event_list() {
-
 	include_once( 'ekl-event-shortcode-content.php' );
-    //return "You have selected the {$a['style']} style</a>";
 }
 ?>
