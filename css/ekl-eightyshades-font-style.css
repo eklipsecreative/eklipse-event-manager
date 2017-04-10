@@ -25,7 +25,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"]:before {
 */
-.icon-store:before, .icon-out:before, .icon-in:before, .icon-in-alt:before, .icon-home:before, .icon-light-bulb:before, .icon-anchor:before, .icon-feather:before, .icon-expand:before, .icon-maximize:before, .icon-search:before, .icon-zoom-in:before, .icon-zoom-out:before, .icon-add:before, .icon-subtract:before, .icon-exclamation:before, .icon-question:before, .icon-close:before, .icon-cmd:before, .icon-forbid:before, .icon-forbid-2:before, .icon-spinner:before, .icon-play:before, .icon-stop:before, .icon-pause:before, .icon-forward:before, .icon-rewind:before, .icon-sound:before, .icon-sound-alt:before, .icon-sound-off:before, .icon-task:before, .icon-inbox:before, .icon-inbox-alt:before, .icon-envelope:before, .icon-compose:before, .icon-newspaper:before, .icon-newspaper-alt:before, .icon-clipboard:before, .icon-calendar:before, .icon-hyperlink:before, .icon-trash:before, .icon-trash-alt:before, .icon-grid:before, .icon-grid-alt:before, .icon-menu:before, .icon-list:before, .icon-gallery:before, .icon-calculator:before, .icon-windows:before, .icon-browser:before, .icon-alarm:before, .icon-clock:before, .icon-attachment:before, .icon-settings:before, .icon-portfolio:before, .icon-user:before, .icon-users:before, .icon-heart:before, .icon-chat:before, .icon-comments:before, .icon-screen:before, .icon-iphone:before, .icon-ipad:before, .icon-fork-and-spoon:before, .icon-fork-and-knife:before, .icon-instagram:before, .icon-facebook:before, .icon-delicious:before, .icon-googleplus:before, .icon-dribbble:before, .icon-pin:before, .icon-pin-alt:before, .icon-camera:before, .icon-brightness:before, .icon-brightness-half:before, .icon-moon:before, .icon-cloud:before, .icon-circle-full:before, .icon-circle-half:before, .icon-globe:before {
+.ekl-icon-store:before, .ekl-icon-out:before, .ekl-icon-in:before, .ekl-icon-in-alt:before, .ekl-icon-home:before, .ekl-icon-light-bulb:before, .ekl-icon-anchor:before, .ekl-icon-feather:before, .ekl-icon-expand:before, .ekl-icon-maximize:before, .ekl-icon-search:before, .ekl-icon-zoom-in:before, .ekl-icon-zoom-out:before, .ekl-icon-add:before, .ekl-icon-subtract:before, .ekl-icon-exclamation:before, .ekl-icon-question:before, .ekl-icon-close:before, .ekl-icon-cmd:before, .ekl-icon-forbid:before, .ekl-icon-forbid-2:before, .ekl-icon-spinner:before, .ekl-icon-play:before, .ekl-icon-stop:before, .ekl-icon-pause:before, .ekl-icon-forward:before, .ekl-icon-rewind:before, .ekl-icon-sound:before, .ekl-icon-sound-alt:before, .ekl-icon-sound-off:before, .ekl-icon-task:before, .ekl-icon-inbox:before, .ekl-icon-inbox-alt:before, .ekl-icon-envelope:before, .ekl-icon-compose:before, .ekl-icon-newspaper:before, .ekl-icon-newspaper-alt:before, .ekl-icon-clipboard:before, .ekl-icon-calendar:before, .ekl-icon-hyperlink:before, .ekl-icon-trash:before, .ekl-icon-trash-alt:before, .ekl-icon-grid:before, .ekl-icon-grid-alt:before, .ekl-icon-menu:before, .ekl-icon-list:before, .ekl-icon-gallery:before, .ekl-icon-calculator:before, .ekl-icon-windows:before, .ekl-icon-browser:before, .ekl-icon-alarm:before, .ekl-icon-clock:before, .ekl-icon-attachment:before, .ekl-icon-settings:before, .ekl-icon-portfolio:before, .ekl-icon-user:before, .ekl-icon-users:before, .ekl-icon-heart:before, .ekl-icon-chat:before, .ekl-icon-comments:before, .ekl-icon-screen:before, .ekl-icon-iphone:before, .ekl-icon-ipad:before, .ekl-icon-fork-and-spoon:before, .ekl-icon-fork-and-knife:before, .ekl-icon-instagram:before, .ekl-icon-facebook:before, .ekl-icon-delicious:before, .ekl-icon-googleplus:before, .ekl-icon-dribbble:before, .ekl-icon-pin:before, .ekl-icon-pin-alt:before, .ekl-icon-camera:before, .ekl-icon-brightness:before, .ekl-icon-brightness-half:before, .ekl-icon-moon:before, .ekl-icon-cloud:before, .ekl-icon-circle-full:before, .ekl-icon-circle-half:before, .ekl-icon-globe:before {
 	font-family: 'eightyshades';
 	speak: none;
 	font-style: normal;
@@ -33,243 +33,243 @@ you can use the generic selector below, but it's slower:
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 }
-.icon-store:before {
+.ekl-icon-store:before {
 	content: "\e000";
 }
-.icon-out:before {
+.ekl-icon-out:before {
 	content: "\e001";
 }
-.icon-in:before {
+.ekl-icon-in:before {
 	content: "\e002";
 }
-.icon-in-alt:before {
+.ekl-icon-in-alt:before {
 	content: "\e003";
 }
-.icon-home:before {
+.ekl-icon-home:before {
 	content: "\e004";
 }
-.icon-light-bulb:before {
+.ekl-icon-light-bulb:before {
 	content: "\e005";
 }
-.icon-anchor:before {
+.ekl-icon-anchor:before {
 	content: "\e006";
 }
-.icon-feather:before {
+.ekl-icon-feather:before {
 	content: "\e007";
 }
-.icon-expand:before {
+.ekl-icon-expand:before {
 	content: "\e008";
 }
-.icon-maximize:before {
+.ekl-icon-maximize:before {
 	content: "\e009";
 }
-.icon-search:before {
+.ekl-icon-search:before {
 	content: "\e00a";
 }
-.icon-zoom-in:before {
+.ekl-icon-zoom-in:before {
 	content: "\e00b";
 }
-.icon-zoom-out:before {
+.ekl-icon-zoom-out:before {
 	content: "\e00c";
 }
-.icon-add:before {
+.ekl-icon-add:before {
 	content: "\e00d";
 }
-.icon-subtract:before {
+.ekl-icon-subtract:before {
 	content: "\e00e";
 }
-.icon-exclamation:before {
+.ekl-icon-exclamation:before {
 	content: "\e00f";
 }
-.icon-question:before {
+.ekl-icon-question:before {
 	content: "\e010";
 }
-.icon-close:before {
+.ekl-icon-close:before {
 	content: "\e011";
 }
-.icon-cmd:before {
+.ekl-icon-cmd:before {
 	content: "\e012";
 }
-.icon-forbid:before {
+.ekl-icon-forbid:before {
 	content: "\e013";
 }
-.icon-forbid-2:before {
+.ekl-icon-forbid-2:before {
 	content: "\e014";
 }
-.icon-spinner:before {
+.ekl-icon-spinner:before {
 	content: "\e015";
 }
-.icon-play:before {
+.ekl-icon-play:before {
 	content: "\e016";
 }
-.icon-stop:before {
+.ekl-icon-stop:before {
 	content: "\e017";
 }
-.icon-pause:before {
+.ekl-icon-pause:before {
 	content: "\e018";
 }
-.icon-forward:before {
+.ekl-icon-forward:before {
 	content: "\e019";
 }
-.icon-rewind:before {
+.ekl-icon-rewind:before {
 	content: "\e01a";
 }
-.icon-sound:before {
+.ekl-icon-sound:before {
 	content: "\e01b";
 }
-.icon-sound-alt:before {
+.ekl-icon-sound-alt:before {
 	content: "\e01c";
 }
-.icon-sound-off:before {
+.ekl-icon-sound-off:before {
 	content: "\e01d";
 }
-.icon-task:before {
+.ekl-icon-task:before {
 	content: "\e01e";
 }
-.icon-inbox:before {
+.ekl-icon-inbox:before {
 	content: "\e01f";
 }
-.icon-inbox-alt:before {
+.ekl-icon-inbox-alt:before {
 	content: "\e020";
 }
-.icon-envelope:before {
+.ekl-icon-envelope:before {
 	content: "\e021";
 }
-.icon-compose:before {
+.ekl-icon-compose:before {
 	content: "\e022";
 }
-.icon-newspaper:before {
+.ekl-icon-newspaper:before {
 	content: "\e023";
 }
-.icon-newspaper-alt:before {
+.ekl-icon-newspaper-alt:before {
 	content: "\e024";
 }
-.icon-clipboard:before {
+.ekl-icon-clipboard:before {
 	content: "\e025";
 }
-.icon-calendar:before {
+.ekl-icon-calendar:before {
 	content: "\e026";
 }
-.icon-hyperlink:before {
+.ekl-icon-hyperlink:before {
 	content: "\e027";
 }
-.icon-trash:before {
+.ekl-icon-trash:before {
 	content: "\e028";
 }
-.icon-trash-alt:before {
+.ekl-icon-trash-alt:before {
 	content: "\e029";
 }
-.icon-grid:before {
+.ekl-icon-grid:before {
 	content: "\e02a";
 }
-.icon-grid-alt:before {
+.ekl-icon-grid-alt:before {
 	content: "\e02b";
 }
-.icon-menu:before {
+.ekl-icon-menu:before {
 	content: "\e02c";
 }
-.icon-list:before {
+.ekl-icon-list:before {
 	content: "\e02d";
 }
-.icon-gallery:before {
+.ekl-icon-gallery:before {
 	content: "\e02e";
 }
-.icon-calculator:before {
+.ekl-icon-calculator:before {
 	content: "\e02f";
 }
-.icon-windows:before {
+.ekl-icon-windows:before {
 	content: "\e030";
 }
-.icon-browser:before {
+.ekl-icon-browser:before {
 	content: "\e031";
 }
-.icon-alarm:before {
+.ekl-icon-alarm:before {
 	content: "\e032";
 }
-.icon-clock:before {
+.ekl-icon-clock:before {
 	content: "\e033";
 }
-.icon-attachment:before {
+.ekl-icon-attachment:before {
 	content: "\e034";
 }
-.icon-settings:before {
+.ekl-icon-settings:before {
 	content: "\e035";
 }
-.icon-portfolio:before {
+.ekl-icon-portfolio:before {
 	content: "\e036";
 }
-.icon-user:before {
+.ekl-icon-user:before {
 	content: "\e037";
 }
-.icon-users:before {
+.ekl-icon-users:before {
 	content: "\e038";
 }
-.icon-heart:before {
+.ekl-icon-heart:before {
 	content: "\e039";
 }
-.icon-chat:before {
+.ekl-icon-chat:before {
 	content: "\e03a";
 }
-.icon-comments:before {
+.ekl-icon-comments:before {
 	content: "\e03b";
 }
-.icon-screen:before {
+.ekl-icon-screen:before {
 	content: "\e03c";
 }
-.icon-iphone:before {
+.ekl-icon-iphone:before {
 	content: "\e03d";
 }
-.icon-ipad:before {
+.ekl-icon-ipad:before {
 	content: "\e03e";
 }
-.icon-fork-and-spoon:before {
+.ekl-icon-fork-and-spoon:before {
 	content: "\e03f";
 }
-.icon-fork-and-knife:before {
+.ekl-icon-fork-and-knife:before {
 	content: "\e040";
 }
-.icon-instagram:before {
+.ekl-icon-instagram:before {
 	content: "\e041";
 }
-.icon-facebook:before {
+.ekl-icon-facebook:before {
 	content: "\e042";
 }
-.icon-delicious:before {
+.ekl-icon-delicious:before {
 	content: "\e043";
 }
-.icon-googleplus:before {
+.ekl-icon-googleplus:before {
 	content: "\e044";
 }
-.icon-dribbble:before {
+.ekl-icon-dribbble:before {
 	content: "\e045";
 }
-.icon-pin:before {
+.ekl-icon-pin:before {
 	content: "\e046";
 }
-.icon-pin-alt:before {
+.ekl-icon-pin-alt:before {
 	content: "\e047";
 }
-.icon-camera:before {
+.ekl-icon-camera:before {
 	content: "\e048";
 }
-.icon-brightness:before {
+.ekl-icon-brightness:before {
 	content: "\e049";
 }
-.icon-brightness-half:before {
+.ekl-icon-brightness-half:before {
 	content: "\e04a";
 }
-.icon-moon:before {
+.ekl-icon-moon:before {
 	content: "\e04b";
 }
-.icon-cloud:before {
+.ekl-icon-cloud:before {
 	content: "\e04c";
 }
-.icon-circle-full:before {
+.ekl-icon-circle-full:before {
 	content: "\e04d";
 }
-.icon-circle-half:before {
+.ekl-icon-circle-half:before {
 	content: "\e04e";
 }
-.icon-globe:before {
+.ekl-icon-globe:before {
 	content: "\e04f";
 }

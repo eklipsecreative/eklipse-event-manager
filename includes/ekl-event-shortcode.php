@@ -1,9 +1,9 @@
 <?php
 //Code to actually display content on event lister page
 
-add_action('init','register_shortcodes');
+add_action('init','ekl_event_register_shortcodes');
 
-function register_shortcodes() {
+function ekl_event_register_shortcodes() {
   add_shortcode( 'ekl-event', 'ekl_generate_event_list' );
 }
 

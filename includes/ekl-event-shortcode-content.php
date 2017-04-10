@@ -6,7 +6,15 @@ $args = array(
             'post_type' => 'events',
             'meta_key' => '_ekl_meta_start_date',
             'orderby' => 'meta_value',
-            'order' => 'ASC'
+            'order' => 'ASC',
+			'meta_query'     => array(
+			'relation'  => 'OR',
+			 array (
+			   'key'     => '_ekl_meta_start_date',
+			   'value'   => date('Y-m-d'),
+			   'compare' => '>',
+			 )
+		  )
         );
 $my_query = new WP_Query( $args );
 
@@ -70,9 +78,9 @@ if ($my_query->have_posts()) { ?>
 			<span class="ekl-event-title"><?php the_title(); ?></span>
 			<div><hr class="ekl-hr-style" /></div>
 			<div class="ekl-event-details">
-				<span class="icon-calendar">&nbsp;&nbsp;</span>&nbsp;&nbsp;<?php echo $ekl_detail_date; ?><br />
-				<span class="icon-clock">&nbsp;&nbsp;</span>&nbsp;&nbsp;<?php echo $ekl_detail_time; ?><br />
-				<span class="icon-pin-alt">&nbsp;&nbsp;</span>&nbsp;&nbsp;<?php echo $ekl_detail_location; ?>
+				<span class="ekl-icon-calendar">&nbsp;&nbsp;</span>&nbsp;&nbsp;<?php echo $ekl_detail_date; ?><br />
+				<span class="ekl-icon-clock">&nbsp;&nbsp;</span>&nbsp;&nbsp;<?php echo $ekl_detail_time; ?><br />
+				<span class="ekl-icon-pin-alt">&nbsp;&nbsp;</span>&nbsp;&nbsp;<?php echo $ekl_detail_location; ?>
 			</div>
 			<div class="ekl-event-content-text">
 				<?php 

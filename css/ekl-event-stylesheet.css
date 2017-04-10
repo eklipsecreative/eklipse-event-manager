@@ -65,6 +65,11 @@ hr.ekl-hr-style {
 .ekl-event-details {
 	padding-bottom:20px;
 }
+
+.ekl-event-details span {
+  background-color:transparent;
+  color:inherit;
+}
 .ekl-event-excerpt {
   color: #e6e6e6;
 }
@@ -79,7 +84,7 @@ hr.ekl-hr-style {
 
 .ekl-event-content {
  height: 100%;
- width:100%
+ width:100%;
  overflow: hidden;
 }
 
