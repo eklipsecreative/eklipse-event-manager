@@ -61,7 +61,7 @@ function ekl_generate_event_list( $atts ) {
         'style' => 'Light',
     ), $atts );
 
-	include_once( 'ekl-event-shortcode-content2.php' );
+	include_once( 'ekl-event-shortcode-content.php' );
     //return "You have selected the {$a['style']} style</a>";
 }
 

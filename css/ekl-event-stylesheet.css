@@ -1,11 +1,19 @@
-.btn {
-	display:block;
-	height:100px;
-	width:100px;
-	border-radius: 50%;
-	text-align:center;
-	position:relative;
-	color:white;
+.ekl-event-btn {
+  display:block;
+  width:100%;
+  background-color:#ccc;
+  padding:10px 20px;
+  text-align:center;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-weight:bold;
+  border:1px solid #bbb;
+  color:#333;
+}
+
+.ekl-event-btn:hover {
+  background:#ddd;
+  color:#333;
 }
 
 hr.ekl-hr-style {
@@ -16,7 +24,6 @@ hr.ekl-hr-style {
 }
 
 .ekl-event-container {
-  background-color: #eee;
   border: 1px solid #ccc; 
   width:100%;
   margin-bottom:30px;
