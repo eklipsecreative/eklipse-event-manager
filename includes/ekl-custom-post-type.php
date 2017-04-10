@@ -18,7 +18,8 @@ function ekl_create_post_type() {
 				'not_found' => __( 'No events found' ),
 				'not_found_in_trash' => __( 'No events found in trash' )				
             ),
-        'public' => true,
+        'public' => false,
+        'show_ui' => true,
 		'menu_position' => 20,
 		'menu_icon' => 'dashicons-calendar-alt',
         'has_archive' => true,
